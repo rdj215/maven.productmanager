@@ -1,6 +1,6 @@
-package com.github.perschola.genericinventory;
+package com.github.curriculeon.iteminventory;
 
-import com.github.perschola.GenericInventory;
+import com.github.curriculeon.GenericInventory;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -1,7 +1,7 @@
-# Project Title
+# Product manager
 
-* **Objective** - To create a product...
-* **Purpose** - To gain familiarity the following product-features...
+* **Objective** - To create a class which can `add`, `remove`, `get`, and check if it `contains` elements.
+* **Purpose** - To gain familiarity the `java.util.List` and Generic Structures
 
 ## Part 1 - Clone the project
 * Begin by _forking_ this project into a personal repository.
@@ -11,4 +11,4 @@
 * Open the newly cloned project in a code editor (Visual Studio Code, for example).
 
 ## Part 2 - Getting started
-* Begin by first... 
+* Ensure that each of the test classes passes with 100% success rate.

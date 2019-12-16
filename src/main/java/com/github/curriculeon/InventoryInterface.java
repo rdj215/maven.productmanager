@@ -1,4 +1,4 @@
-package com.github.perschola;
+package com.github.curriculeon;
 
 public interface InventoryInterface<SomeType> {
     void add(SomeType someObject);
