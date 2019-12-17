@@ -11,7 +11,7 @@ import org.junit.Test;
 public class RemoveTest {
     // given
     private void test(Item[] expectedItems, Item[] objectsToBeAdded, int indexOfElement) {
-        Item[] actualItems = objectsToBeAdded.clone();
+        Item[] actualItems = expectedItems.clone();
         GenericInventory<Item> genericInventory = new GenericInventory<>();
         for (Item someObject : objectsToBeAdded) {
             genericInventory.add(someObject);
