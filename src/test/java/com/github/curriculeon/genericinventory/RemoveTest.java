@@ -10,7 +10,7 @@ import org.junit.Test;
 public class RemoveTest {
     // given
     private <SomeType> void test(SomeType[] expectedItems, SomeType[] objectsToBeAdded, int indexOfElement) {
-        SomeType[] actualItems = objectsToBeAdded.clone();
+        SomeType[] actualItems = expectedItems.clone();
         GenericInventory<SomeType> genericInventory = new GenericInventory<>();
         for (SomeType someObject : objectsToBeAdded) {
             genericInventory.add(someObject);
